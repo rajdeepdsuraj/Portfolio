@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Text Decoration Demo</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 2;
+            padding: 30px;
+            background: #fafafa;
+        }
+
+        /* Decoration line examples */
+        .example-line p {
+            font-size: 20px;
+        }
+
+        /* Decoration style examples */
+        .example-style p {
+            font-size: 20px;
+            text-decoration-line: underline;
+            /* To show different styles clearly */
+            text-decoration-color: #007BFF;
+        }
+    </style>
+</head>
+
+<body>
+
+    <h2>🎨 text-decoration-line Examples</h2>
+    <div class="example-line">
+        <p style="text-decoration-line: none;">This text has <b>no decoration</b></p>
+        <p style="text-decoration-line: underline;">This text is <b>underlined</b></p>
+        <p style="text-decoration-line: overline;">This text has an <b>overline</b></p>
+        <p style="text-decoration-line: line-through;">This text is <b>struck through</b></p>
+    </div>
+
+    <hr>
+
+    <h2>🌈 text-decoration-style Examples</h2>
+    <div class="example-style">
+        <p style="text-decoration-style: solid;">Solid underline</p>
+        <p style="text-decoration-style: double;">Double underline</p>
+        <p style="text-decoration-style: dotted;">Dotted underline</p>
+        <p style="text-decoration-style: dashed;">Dashed underline</p>
+        <p style="text-decoration-style: wavy;">Wavy underline</p>
+    </div>
+    <p style="line-height: normal;">This is line height normal.<br>Second line here.</p>
+    <p style="line-height: 10px;">This has line height 10px (very close lines).<br>See?</p>
+    <p style="line-height: 2;">This has line height 2 (more spaced lines).<br>Looks airy!</p>
+
+    <p style="letter-spacing: normal;">NORMAL spacing</p>
+    <p style="letter-spacing: 5px;">W I D E spacing (5px)</p>
+    <p style="letter-spacing: 1%;">Slightly spaced letters (1%)</p>
+    <hr>
+    <p style="white-space: normal;">This text has many spaces but they collapse.</p>
+
+    <p style="white-space: nowrap;">This text will stay in one line and not wrap even if the screen is small.</p>
+
+    <p style="white-space: pre;">This keeps all spaces
+        and line breaks exactly
+        as written.</p>
+
+    <p style="white-space: pre-line;">This collapses spaces
+        but
+        keeps line breaks.</p>
+
+    <p style="white-space: pre-wrap;">This keeps spaces and
+        line breaks
+        and wraps normally.</p>
+
+
+</body>
+
+</html>
